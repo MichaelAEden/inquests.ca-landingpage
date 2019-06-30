@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
-  z-index: 2;
+  z-index: 1;
   .masthead-bg {
     position: absolute;
     top: 0;
@@ -13,8 +13,6 @@
     min-height: 35rem;
     height: 100%;
     background-color: fade-out($primary, 0.2);
-    transform: skewY(4deg);
-    transform-origin: bottom right;
   }
   .masthead-content {
     h1 {
@@ -26,20 +24,6 @@
         font-weight: 700;
       }
     }
-    .input-group-newsletter {
-      input {
-        height: auto;
-        font-size: 1rem;
-        padding: 1rem;
-      }
-      button {
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        padding: 1rem;
-      }
-    }
   }
 }
 
@@ -47,7 +31,7 @@
   .masthead {
     height: 100%;
     min-height: 0;
-    width: 40.5rem;
+    width: 33rem;
     padding-bottom: 0;
     .masthead-bg {
       min-height: 0;
@@ -56,7 +40,7 @@
     }
     .masthead-content {
       padding-left: 3rem;
-      padding-right: 10rem;
+      padding-right: 5rem;
       h1 {
         font-size: 3.5rem;
       }
