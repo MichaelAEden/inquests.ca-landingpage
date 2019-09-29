@@ -79,12 +79,8 @@ img {
   font-size: 2.5rem;
 }
 
-.masthead .masthead-content p {
-  font-size: 1.2rem;
-}
-
-.masthead .masthead-content p strong {
-  font-weight: 700;
+.masthead .masthead-content .button-beta {
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -104,9 +100,6 @@ img {
   }
   .masthead .masthead-content h1 {
     font-size: 3.5rem;
-  }
-  .masthead .masthead-content p {
-    font-size: 1.3rem;
   }
 }
 

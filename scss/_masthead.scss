@@ -19,11 +19,8 @@
     h1 {
       font-size: 2.5rem;
     }
-    p {
-      font-size: 1.2rem;
-      strong {
-        font-weight: 700;
-      }
+    .button-beta {
+      text-transform: uppercase;
     }
   }
 }
@@ -43,9 +40,6 @@
       padding-right: 3rem;
       h1 {
         font-size: 3.5rem;
-      }
-      p {
-        font-size: 1.3rem;
       }
     }
   }
