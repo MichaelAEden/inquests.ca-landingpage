@@ -37,8 +37,8 @@ img {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   z-index: 0;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 
 .overlay {
@@ -91,20 +91,16 @@ img {
   .masthead {
     height: 100%;
     min-height: 0;
-    width: 33rem;
+    width: 28rem;
     padding-bottom: 0;
   }
   .masthead .masthead-bg {
     min-height: 0;
-    -webkit-transform: skewX(-8deg);
-    transform: skewX(-8deg);
-    -webkit-transform-origin: top right;
-    transform-origin: top right;
   }
   .masthead .masthead-content {
     text-align: left;
     padding-left: 3rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
   }
   .masthead .masthead-content h1 {
     font-size: 3.5rem;
